@@ -5,6 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body></body>
+ <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel= "stylesheet" type="text/css" />
+    <title>Weather</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>  
+</head>
+  <body>
+    <div class="container">
+
+      <form id="searchCity">
+        <input type="search..." name="weather" id="city" class="weather" placeholder="Search" />
+        <input type="submit" id="submit">
+        <button id="current"> Current </button>
+      </form>
+
+      <h2>
+        Madrid, Spain
+      </h2>
+        <h6>Wednesday 19:35</h6>
+        <h6 id="sky"> Clouds </h6>  
+      
+      <br />
+      <h1 class="display" id="temp">🌤 9°<small>c</small></h1>
+    
+      <h3>
+        <ul>
+          <li id="humidity">
+          Humidity: 46%
+          </li>
+          <li id="wind">
+          Wind : 5km/hr
+          </li>
+        </ul>
+      </h3>
+      <br />
+      <div class="row">
+        <div class="col-2 days">Thursday</div>
+        <div class="col-2 days">Friday</div>
+        <div class="col-2 days">Saturday</div>
+        <div class="col-2 days">Sunday</div>
+        <div class="col-2 days">Monday</div>
+        <div class="col-2 days">Tuesday</div>
+      </div>
+      <div class="row">
+        <div class="col-2 weather-forecast">🌦</div>
+        <div class="col-2 weather-forecast">☁️</div>
+        <div class="col-2 weather-forecast">🌧</div>
+        <div class="col-2 weather-forecast">🌤</div>
+        <div class="col-2 weather-forecast">🌤</div>
+        <div class="col-2 weather-forecast">☀️</div>
+      </div>
+    <div class="row">
+      <div class="col-2 temperature">6℃</div>
+      <div class="col-2 temperature">7℃</div>
+      <div class="col-2 temperature">4℃</div>
+      <div class="col-2 temperature">8℃</div>
+      <div class="col-2 temperature">10℃</div>
+      <div class="col-2 temperature">13℃</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

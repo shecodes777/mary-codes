@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(161, 97, 108);
+}
+h2 {
+  color: lightcoral;
+}
+h3 {
+  color: lightcoral;
+  text-align: right;
+}
+h6 {
+  color: olive;
+}
+ul {
+  list-style: none;
+}
+.display {
+  color: rgb(161, 97, 108);
+  font-size: 80px;
+}
+.weather {
+  font-size: x-large;
+  font-stretch: ultra-expanded;
+}
+
+.days {
+  color: olive;
+}
+
+.weather-forecast {
+  font-size: 75px;
+}
+.temperature {
+  font-size: 12px;
+  color: olive;
+}
